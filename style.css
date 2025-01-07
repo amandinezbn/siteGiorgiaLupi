@@ -1,0 +1,269 @@
+@font-face {
+    font-family: "Holiday New Style";
+    src: url("fonts/HolidayNewStyle.ttf") format("truetype")
+  } 
+  
+  @font-face {
+    font-family: "Poppins";
+    src: url("fonts/Poppins-Bold.ttf") format("truetype")
+  } 
+
+  @font-face {
+    font-family: "NeueHassGroteskText Pro";
+    src: url("fonts/NHaasGroteskTXPro-55Rg.otf") format("opentype")
+  } 
+
+  @font-face {
+    font-family: "Poppins-Italic";
+    src: url("fonts/Poppins-Italic.ttf") format("truetype")
+  } 
+
+  @font-face {
+    font-family: "Poppins-Light";
+    src: url("fonts/Poppins-Light.ttf") format("truetype")
+  } 
+
+  nav ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: #d91d1d;
+}
+
+body {
+    font-family: "Poiret One", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color:#000000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul li a {
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.section-hero {
+    display: flex;
+    justify-content: flex-end; /* Place l'image à droite */
+    align-items: center; /* Centrer verticalement le texte et l'image */
+    height: 105vh; /* Prend toute la hauteur de l'écran */
+    padding: 0px; /* Espacement intérieur pour ne pas que le contenu touche les bords */
+    box-sizing: border-box;
+    position: relative; /* Pour positionner le texte par rapport à cette section */
+    font-family: "Holiday New Style";
+    background-color:#e8e8e8;
+}
+
+.petit-texte-hero {
+    position: absolute; /* Permet de positionner le texte précisément */
+    top: 30px;          /* Décale vers le bas depuis le haut de la section */
+    left: 20px;         /* Décale vers la droite depuis le bord gauche */
+    font-size: 18px;    /* Taille spécifique au texte */
+    color: #000000;        /* Couleur du texte */
+    font-family: 'Cedarville Cursive', cursive; /* Police de caractères */
+    padding: 5px 10px;  /* Espacement interne pour aérer le texte */
+    font-family: "Poppins";
+}
+
+.petit-texte-hero2 {
+    position: absolute; /* Permet de positionner le texte précisément */
+    bottom: 30px;          /* Décale vers le bas depuis le haut de la section */
+    left: 20px;         /* Décale vers la droite depuis le bord gauche */
+    font-size: 18px;    /* Taille spécifique au texte */
+    color: #000000;        /* Couleur du texte */
+    font-family: 'Cedarville Cursive', cursive; /* Police de caractères */
+    padding: 5px 10px;  /* Espacement interne pour aérer le texte */
+    font-family: "Poppins";
+}
+
+/* Style pour le texte */
+.texte {
+    position: absolute; /* Le texte est positionné absolument */
+    top: 50%; /* Placer le texte au centre verticalement */
+    left: 15%; /* Espacement à gauche, ajustable */
+    z-index: 2; /* Placer le texte au-dessus de l'image */
+    color: #d91d1d; /* Couleur du texte */
+    transform: translateY(-50%) rotate(-10deg); /* Centrer verticalement et incliner le texte */
+    font-size: 22rem; /* Taille du texte très grande */
+    line-height: 1.2;
+    text-align: center;
+    pointer-events: none;
+}
+
+p {
+    line-height: 0.5; /* Réduit l'espace entre les lignes */
+    margin-top: 350px; /* Réduit l'espace entre le texte et le haut de la page */
+    margin-left: 0px;
+    letter-spacing: 20px; /* Augmente l'espace entre les lettres de 2px */
+    font-family: "Holiday New Style";
+} 
+.image {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.image img {
+    width: 48%; /* Ajuster la taille de l'image */
+    height: auto; /* Conserver les proportions */
+}
+.section-bio {
+    padding: 0px;
+    margin: 100px;
+    background-color:#ffffff;
+    text-align: center;
+    font-family: "NeueHassGroteskText Pro";
+    font-size: 30px;
+    line-height: 1.3;
+    position: relative;
+    color: #000000;
+}
+
+
+.image-h2 {
+    width: 120px; /* Taille de l'image */
+    height: 70px; /* Garde l'image carrée */
+    border-radius: 50%; /* Arrondir l'image */
+    position: absolute; /* Permet de positionner l'image par rapport à son conteneur */
+    top: 55px; /* Monte l'image vers le haut */
+    right: 170px; /* Décale l'image à gauche pour la superposer au texte */
+    z-index: 1;
+}
+
+.second-image {
+    width: 100px; /* Taille différente pour la deuxième image */
+    height: 70px;
+    border-radius: 50%; /* Arrondi différent de la première image */
+    position: absolute; /* Permet de positionner l'image par rapport à son conteneur */
+    top: 52px; /* Monte l'image vers le haut */
+    left: 190px; /* Décale l'image à gauche pour la superposer au texte */
+    z-index: 1;   
+}
+   
+.third-image {
+    width: 80px; /* Taille différente pour la troisième image */
+    height: 130px;
+    border-radius: 80%; /* Arrondi différent */
+    position: absolute; /* Permet de positionner l'image par rapport à son conteneur */
+    top: 230px; /* Monte l'image vers le haut */
+    right: 250px; /* Décale l'image à gauche pour la superposer au texte */
+    z-index: 1; 
+}
+
+.quatre-image {
+    width: 60px; /* Taille différente pour la troisième image */
+    height: 60px;
+    border-radius: 50%; /* Arrondi différent */
+    position: absolute; /* Permet de positionner l'image par rapport à son conteneur */
+    top: 230px; /* Monte l'image vers le haut */
+    left: 270px; /* Décale l'image à gauche pour la superposer au texte */
+    z-index: 1; 
+}
+
+.souligné{
+    font-size: 20px;
+    color: #d91d1d;
+    text-align: center; /* Centrer le texte à l'intérieur de l'élément */
+    font-weight: bold;
+    letter-spacing: 0px;
+    margin-top:-300px;
+    cursor: pointer;
+    font-family: "Poppins-Italic";
+    text-decoration: underline;
+    display: block; /* Forcer l'élément à être un bloc pour permettre le centrage */
+}
+
+
+.full-screen {
+    margin: 0;
+    padding: 0;
+    width: 100vw; /* Largeur de la fenêtre visible */
+    height: 70vh; /* Hauteur de la fenêtre visible */
+    overflow: hidden; /* Empêche les débordements éventuels */
+    position: relative;
+    top: 221px;
+}
+
+.full-screen img {
+    width: 100vw; /* L'image occupe toute la largeur */
+    height: 100vh; /* L'image occupe toute la hauteur */
+    top: 100px;
+}
+
+
+
+/* Conteneur de la section, avec position relative */
+#Works {
+    position: relative; /* Le parent doit avoir position relative */
+    height: 100vh; /* Hauteur de l'écran pour occuper tout l'espace vertical */
+    background-color: #e8e8e8;
+}
+
+/* Section de texte */
+.texte2 {
+    position: absolute; /* Position absolue par rapport au parent */
+    top: 20%; /* Placer le texte au centre verticalement */
+    left: 50%; /* Placer le texte au centre horizontalement */
+    transform: translate(-50%, -50%) rotate(-10deg); /* Centrer parfaitement avec un léger décalage */
+    z-index: 2; /* Placer le texte au-dessus de l'image */
+    color: #d91d1d; /* Couleur du texte */
+    font-size: 16rem; /* Taille du texte très grande */
+    line-height: 0.35; /* Réduit l'espace entre les lignes */
+    text-align: center;
+    font-weight: normal;
+}
+
+/* Modification du style du texte à l'intérieur de .texte2 */
+.texte2 span {
+    margin-left: 0px;
+    letter-spacing: 20px; /* Augmente l'espace entre les lettres de 20px */
+    font-family: "Holiday New Style"; /* Police spécifique */
+}
+
+.portrait {
+    width: 275px; /* Taille différente pour la troisième image */
+    height: 275px;
+    border-radius: 50%; /* Arrondi différent */
+    position: absolute; /* Permet de positionner l'image par rapport à son conteneur */
+    top: 90px; /* Monte l'image vers le haut */
+    left: 100px; /* Décale l'image à gauche pour la superposer au texte */
+    z-index: 1; 
+}
+
+.decouvrir {
+    font-size: 20px;
+    color: #d91d1d;
+    text-align: center; /* Centrer le texte à l'intérieur de l'élément */
+    font-weight: bold;
+    letter-spacing: 0px;
+    margin-top:-70px;
+    cursor: pointer;
+    font-family: "Poppins-Italic";
+    text-decoration: underline;
+    display: block; /* Forcer l'élément à être un bloc pour permettre le centrage */
+}
+
+
+footer {
+    color: #000000;
+    text-align: right;
+    padding-top: 100px;
+    font-family: "Poppins-Light";
+    font-weight: normal;
+    font-size: 12px;
+}

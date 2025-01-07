@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "Holiday New Style";
+    src: url("fonts/HolidayNewStyle.ttf") format("truetype")
+  } 
+
+  @font-face {
+    font-family: "Poppins";
+    src: url("fonts/Poppins-Bold.ttf") format("truetype")
+  } 
+
+  @font-face {
+    font-family: "NeueHassGroteskText Pro";
+    src: url("fonts/NHaasGroteskTXPro-55Rg.otf") format("opentype")
+  } 
+
+  @font-face {
+    font-family: "Poppins-Italic";
+    src: url("fonts/Poppins-Italic.ttf") format("truetype")
+  } 
+
+  @font-face {
+    font-family: "Poppins-Light";
+    src: url("fonts/Poppins-Light.ttf") format("truetype")
+  } 
+
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: #d91d1d;
+}
+
+header {
+    background-color:#000000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul li a {
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+body {
+    font-family: "Poiret One", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #d91d1d;
+    font-family: "Holiday New Style";
+    font-size: 18rem;
+    font-weight: normal;
+    margin-top: 250px;
+    transform: translateY(-50%) rotate(-10deg);
+    margin-left: 420px;
+    letter-spacing: 8px;
+    position: absolute;
+    line-height: 0.65;
+}
+
+.image1 img {
+    width: auto;  /* Taille carrée */
+    height: 400px; /* Taille carrée */
+    border-radius: 100%; /* Arrondi */
+    display: block;
+    margin: 20px auto 0;
+    margin-top: 20px;
+    margin-right: 850px;
+    object-fit: contain;
+    
+}
+
+.section-titre {
+    background-color: #e8e8e8;
+    min-height: 70vh; /* Ajout pour que la section prenne toute la hauteur de la fenêtre */
+    padding: 50px 20px; /* Espace autour du contenu */
+    margin-bottom: -200px;   
+}
+
+/* Section Contact */
+.contact-section {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 100px;
+}
+
+h2, h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.contact-info a {
+    color :#d91d1d;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+
+button:hover {
+    background-color:#d91d1d;
+}
+
+/* Footer */
+footer {
+    background-color: #ffffff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h4 {
+    color: #d91d1d;
+    font-family: "NeueHassGroteskText Pro";
+    text-align: center;
+    padding-top: 30px;
+    font-size: 45px;
+}
+
+.sources {
+    display: flex;
+    flex-direction: column; /* Placer les éléments en colonne */
+    justify-content: center; /* Centrer la liste horizontalement */
+    align-items: center; /* Centrer la liste verticalement si nécessaire */
+    text-align: center; /* Centrer le texte des éléments de la liste */
+    padding: 20px; /* Espacement autour de la section */
+    font-family: "Poppins";
+}
+
+.sources ul {
+    list-style-type: none;  /* Enlever les puces des éléments de la liste */
+    padding-left: 0;  /* Enlever l'indentation */
+    margin: 0;  /* Enlever la marge par défaut */
+}
+
+.sources li {
+    margin-bottom: 10px;  /* Espacement entre chaque élément de la liste */
+}
+
+.sources a {
+    color: black;
+    text-decoration: none;  /* Supprimer le soulignement des liens */
+}

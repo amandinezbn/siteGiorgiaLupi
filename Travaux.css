@@ -1,0 +1,228 @@
+@font-face {
+    font-family: "Holiday New Style";
+    src: url("fonts/HolidayNewStyle.ttf") format("truetype")
+  } 
+
+  @font-face {
+    font-family: "Poppins";
+    src: url("fonts/Poppins-Bold.ttf") format("truetype")
+  } 
+
+  @font-face {
+    font-family: "NeueHassGroteskText Pro";
+    src: url("fonts/NHaasGroteskTXPro-55Rg.otf") format("opentype")
+  } 
+
+  @font-face {
+    font-family: "Poppins-Italic";
+    src: url("fonts/Poppins-Italic.ttf") format("truetype")
+  } 
+
+  @font-face {
+    font-family: "Poppins-Light";
+    src: url("fonts/Poppins-Light.ttf") format("truetype")
+  } 
+
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: #d91d1d;
+}
+
+header {
+    background-color:#000000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul li a {
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+body {
+    font-family: "Poiret One", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #d91d1d;
+    font-family: "Holiday New Style";
+    font-size: 18rem;
+    font-weight: normal;
+    margin-top: 260px;
+    transform: translateY(-50%) rotate(-10deg);
+    margin-left: 500px;
+    letter-spacing: 8px;
+    position: absolute;
+    line-height: 0.65;
+}
+
+.image1 img {
+    width: 450px;  /* Taille carrée */
+    height: 450px; /* Taille carrée */
+    border-radius: 50%; /* Arrondi */
+    display: block;
+    margin: 20px auto 0;
+    margin-top: 20px;
+    margin-right: 850px;
+}
+
+.section-titre {
+    background-color: #e8e8e8;
+    min-height: 70vh; /* Ajout pour que la section prenne toute la hauteur de la fenêtre */
+    padding: 50px 20px; /* Espace autour du contenu */   
+}
+
+h2 {
+    color: #d91d1d;
+    font-family: "NeueHassGroteskText Pro";
+    margin-left: 200px;
+    padding-top: 30px;
+    font-size: 45px;
+
+}
+
+.texte p {
+    color: #000000;
+    font-family: "Poppins-Light";
+    font-size: 17px;
+    margin-left: 200px;
+}
+
+
+/* Conteneur principal du carrousel */
+.carousel {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden; /* Cache les images qui débordent */
+}
+
+/* Conteneur des images */
+.images-container {
+    display: flex;
+    transition: transform 0.5s ease; /* Animation pour la transition */
+}
+
+/* Style des images */
+.images-container img {
+    width: 100%;
+    max-width: 100%; /* Assurez-vous que les images s'adaptent au carrousel */
+    height: auto;
+}
+
+/* Boutons de navigation */
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 100;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+h3 {
+    color: #d91d1d;
+    font-family: "NeueHassGroteskText Pro";
+    margin-left: 0px;
+    padding-top: 30px;
+    font-size: 45px;
+
+}
+
+.texte2 {
+    color: #000000;
+    font-family: "Poppins-Light";
+    font-size: 17px;
+    margin-left: 200px;
+}
+
+.gallery-items {
+    margin: 15px;
+    width: 200px;
+}
+
+
+.gallery-item img {
+    width: 300px;
+    height: 300px;
+    justify-items: start;
+}
+
+.gallery-item :hover{
+    border:1px solid #d91d1d;
+}
+
+h4 {
+    text-align: left;
+    color: #d91d1d;
+}
+
+.gallery-items2 {
+    margin: 15px;
+    width: 200px;
+}
+
+
+.gallery-item2 img {
+    width: 300px;
+    height: 300px;
+    justify-items: start;
+}
+
+.gallery-item2 :hover{
+    border:1px solid #d91d1d;
+}
+
+.gallery-items3 {
+    margin: 15px;
+    width: 200px;
+}
+
+
+.gallery-item3 img {
+    width: 300px;
+    height: 300px;
+    justify-items: start;
+}
+
+.gallery-item3 :hover{
+    border:1px solid #d91d1d;
+}
+
+h5 {
+    text-align: left;
+    color: #d91d1d;
+    font-size: 17px;
+}
+
+.lien-externe {
+    color: #d91d1d;
+}
+footer {
+    text-align: right;
+    font-family: "Poppins-Light";
+    font-size: 12px;
+}
